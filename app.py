@@ -5,11 +5,7 @@ import os
 from google import generativeai as genai
 
 # Multiple Gemini API keys for fallback
-API_KEYS = [
-    "AIzaSyBNhoiEA6Xlx_bI5XI0edd8KtyAeotPR5I",
-    "AIzaSyCgvLXEs1rkWYOsjkcRLDfzxYW_KrcJr1c",
-    "AIzaSyDPF3je6LpuOigdHZ98Qs2jbSXCSgXOH14"
-]
+API_KEYS = [""]
 
 # Initialize session state for tracking current API key index
 if 'current_api_key_index' not in st.session_state:
